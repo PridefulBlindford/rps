@@ -11,7 +11,16 @@ function getComputerChoice(){
     }
 }
 
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
-console.log(getComputerChoice());
+function getHumanChoice(){
+    let humanChoice=prompt("Please enter rock,paper,or scissors","");
+    let lowerHumanChoice=humanChoice.toLowerCase();
+    if(lowerHumanChoice === "rock" || lowerHumanChoice === "paper" || lowerHumanChoice === "scissors"){
+        return lowerHumanChoice;
+    }
+
+
+}
+
+
+
+
