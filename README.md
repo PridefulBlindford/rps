@@ -1,1 +1,2 @@
 # rps
+This is the project for the odin projects designing a rock paper scissors game. This will use the javascript console to allow to play rock apper scissors against a cpu player and show results of the game.
